@@ -1,0 +1,102 @@
+extends: default-sans-with-font-fallbacks
+
+# First some variables to reuse later
+var:
+  base_font_color: 202020
+  heading_font_color: 783818
+  font_size: 10
+
+# Custom fonts
+# font:
+#   catalog:
+#     merge: true
+#     Raleway:
+#       normal: Raleway-Regular.ttf
+#       italic: Raleway-Italic.ttf
+#       bold: Raleway-SemiBold.ttf
+#       bold_italic: Raleway-SemiBoldItalic.ttf
+#     Raleway Header: Raleway-BoldItalic.ttf
+
+base:
+  font-color: $var_base_font_color
+  # font-family: Raleway
+  font-size: $var_font_size
+  hyphens: true
+  line-height: 1.05
+  text-align: left
+
+page:
+  columns: 1
+  column-gap: 15
+  margin: [0.5in, 0.5in 0.67in, 0.5in]
+
+footer:
+  recto: &shared_footer
+    left:
+      content: "Darwin's Journey Unofficial FAQ"
+    center:
+      content: '{page-number} of {page-count}'
+    right:
+      content: 'v{revnumber}, {docdate}'
+  verso: *shared_footer
+
+heading:
+  font-color: $var_heading_font_color
+  text-align: center
+  line-height: 1.1
+  # Ensure at least one line of the block below is on the same page
+  # min-height-after: auto
+  h2:
+    font-size: $var_font_size * 1.6
+    border-color: $var_heading_font_color
+    border-style: double
+    border-width: [0, 0, 2, 0]
+  h3:
+    # font-family: Raleway Header
+    font-size: $var_font_size * 1.3
+    border-color: $var_heading_font_color
+    border-radius: 8
+    border-width: 1
+    margin-top: $var_font_size * 1
+    margin-bottom: $var_font_size * 0.5
+
+# Default image with if pdfwidth not specified
+image:
+  width: 33%
+
+# Used for topic headings - DEPRECATED
+sidebar:
+  background-color: 985838
+  border-radius: 9
+  border-width: ~
+  font-color: ffffff
+  font-size: 13
+  font-style: bold
+  padding: 1
+
+# Slightly larger margin before a different block (e.g. a sidebar)
+prose:
+  margin-bottom: 8
+  margin-inner: 6
+
+list:
+  indent: 15
+  item-spacing: $var_font_size / 2
+
+# Reduce margin below sidebar (topic heading)
+block:
+  margin-bottom: 4
+
+role:
+  expansion:
+    background-color: f0f0ff
+    border-color: c0c0ff
+    border-offset: 1
+    border-radius: 2
+    border-width: 0.5
+    font-color: 000090
+    font-family: $codespan_font_family
+  keyword:
+    font-color: 006000
+    font-family: $codespan_font_family
+    font-style: bold

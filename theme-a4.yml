@@ -1,0 +1,5 @@
+extends: [default-with-font-fallbacks, ./theme-faq.yml]
+
+page:
+  size: A4
+

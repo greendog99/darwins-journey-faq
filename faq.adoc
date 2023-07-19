@@ -1,0 +1,56 @@
+:doctitle: Darwin's Journey Unofficial FAQ
+:revnumber: 0.1
+:revdate: 2023-07-14
+:reproducible:
+:experimental:
+:imagesdir: images
+:showtitle:
+
+Can an Academy action discount (e.g. take a seal at -2 cost) be applied to a Time penalty cost (e.g. +1 cost when taking a seal)?::
+
+Yes. You can apply the discount to the entire cost of gaining the seal,
+including any time penalty cost.
+footnote:[https://boardgamegeek.com/thread/3070984/article/42152100#42152100]
+
+Can an Academy action discount (e.g. take a seal at -2 cost) be applied to the cost of placing the seal on my board?::
+
+Yes. Sum the cost penalty of the scroll in the Academy (if you don't have the
+objective bonus) with the placement penalty, then apply the discount over the
+total.footnote:[https://boardgamegeek.com/thread/3106394/article/42512545#42512545]
+
+Can I have two tents at same location?::
+
+No.footnote:[https://boardgamegeek.com/thread/3056016/article/41999370#41999370]
+
+Can I take a movement action (for an explorer or a ship) and move zero spaces?::
+
+No. You always have to move a minimum of 1 space.footnote:[https://boardgamegeek.com/thread/3058801/article/42069877#42069877]
+
+What happens to seals removed from the top Academy row during cleanup?::
+They are removed from the game.footnote:[https://boardgamegeek.com/thread/3066250/article/42103598#42103598]
+
+What if we run out of seals when refreshing the Academy during cleanup?::
+Seals are a limited resource. If you run out, you run out.
+
+During the Rewards phase, what happens if an Envelope reward allows me to place additional stamps?::
+* If placed _above_ the currently evaluated envelope, stamps will apply during the next round.
+* If placed _in_ the currently evaluated envelope, stamps will apply during the next round. Do _not_ count them among the stamps to be removed for determining majority.footnote:[https://boardgamegeek.com/thread/2591355/article/41343085#41343085]
+* If placed _below_ the currently evaluated envelope, stamps will apply this round when that envelope is evaluated.footnote:[https://boardgamegeek.com/thread/2591355/article/36880355#36880355]
+
+## Fireland
+
+When passing an Adventure Token during movement, do I resolve the Adventure immediately or after my main action is complete?::
+
+Draw the Adventure card, inspect the options, and then decide when to do it
+during your current turn. Consider the adventures as bonus actions you are
+getting, which means you can trigger that bonus anytime during your turn like
+you do when completing a character card or
+objective.footnote:[https://boardgamegeek.com/thread/3067378/article/42290868#42290868]
+
+What if there are no more adventure cards, but there are still tokens on the board?::
+Reshuffle the discards to form a new deck.footnote:[https://boardgamegeek.com/thread/3115165/article/42610738#42610738]
+
+Have to do adventure? Yes.
+
+Have to accomplish crew/objective immediately or can wait? Wait.
+
