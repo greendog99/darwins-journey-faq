@@ -1,21 +1,21 @@
 :doctitle: Darwin's Journey Unofficial FAQ
-:revnumber: 0.1
-:revdate: 2023-07-14
+:revnumber: 1.0
+:revdate: 2023-07-23
 :reproducible:
 :experimental:
 :imagesdir: images
 :showtitle:
 
-Can an Academy action discount (e.g. take a seal at -2 cost) be applied to a Time penalty cost (e.g. +1 cost when taking a seal)?::
+Can an Academy action discount (e.g. gain a Wax Seal with a -2 discount) be applied to a Time Track Penalty (e.g. spend +1 coin for each Gain Scroll action)?::
 
-Yes. You can apply the discount to the entire cost of gaining the seal,
-including any time penalty cost.
+Yes. You can apply the discount to the entire cost of gaining the Wax Seal,
+including any Time Track Penalty.
 footnote:[https://boardgamegeek.com/thread/3070984/article/42152100#42152100]
 
-Can an Academy action discount (e.g. take a seal at -2 cost) be applied to the cost of placing the seal on my board?::
+Can an Academy action discount (e.g. gain a Wax Seal with a -2 discount) be applied to the cost of placing the seal on my player board?::
 
 Yes. Sum the cost penalty of the scroll in the Academy (if you don't have the
-objective bonus) with the placement penalty, then apply the discount over the
+objective bonus) with the board placement penalty, then apply the discount over the
 total.footnote:[https://boardgamegeek.com/thread/3106394/article/42512545#42512545]
 
 Can I have two tents at same location?::
@@ -39,7 +39,7 @@ During the Rewards phase, what happens if an Envelope reward allows me to place 
 
 ## Fireland
 
-When passing an Adventure Token during movement, do I resolve the Adventure immediately or after my main action is complete?::
+When passing an Adventure Token during movement, when do I resolve the Adventure card?::
 
 Draw the Adventure card, inspect the options, and then decide when to do it
 during your current turn. Consider the adventures as bonus actions you are
@@ -50,7 +50,7 @@ objective.footnote:[https://boardgamegeek.com/thread/3067378/article/42290868#42
 What if there are no more adventure cards, but there are still tokens on the board?::
 Reshuffle the discards to form a new deck.footnote:[https://boardgamegeek.com/thread/3115165/article/42610738#42610738]
 
-Have to do adventure? Yes.
+## Discussion & Footnotes
 
-Have to accomplish crew/objective immediately or can wait? Wait.
+Discussion: https://boardgamegeek.com/thread/3120091/faq-preliminary-and-unofficial
 
