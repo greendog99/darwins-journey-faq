@@ -6,12 +6,6 @@
 :imagesdir: images
 :showtitle:
 
-Can an Academy action discount (e.g. gain a Wax Seal with a -2 discount) be applied to a Time Track Penalty (e.g. spend +1 coin for each Gain Scroll action)?::
-
-Yes. You can apply the discount to the entire cost of gaining the Wax Seal,
-including any Time Track Penalty.
-footnote:[https://boardgamegeek.com/thread/3070984/article/42152100#42152100]
-
 Can an Academy action discount (e.g. gain a Wax Seal with a -2 discount) be applied to the cost of placing the seal on my player board?::
 
 Yes. Sum the cost penalty of the scroll in the Academy (if you don't have the
@@ -38,6 +32,12 @@ During the Rewards phase, what happens if an Envelope reward allows me to place 
 * If placed _below_ the currently evaluated envelope, stamps will apply this round when that envelope is evaluated.footnote:[https://boardgamegeek.com/thread/2591355/article/36880355#36880355]
 
 ## Fireland
+
+Can an Academy action discount (e.g. gain a Wax Seal with a -2 discount) be applied to a Time Track Penalty (e.g. spend +1 coin for each Gain Scroll action)?::
+
+Yes. You can apply the discount to the entire cost of gaining the Wax Seal,
+including any Time Track Penalty.
+footnote:[https://boardgamegeek.com/thread/3070984/article/42152100#42152100]
 
 When passing an Adventure Token during movement, when do I resolve the Adventure card?::
 
