@@ -1,56 +1,81 @@
 :doctitle: Darwin's Journey Unofficial FAQ
-:revnumber: 1.0
-:revdate: 2023-07-23
+:revnumber: 1.01
+:revdate: 2023-07-31
 :reproducible:
 :experimental:
 :imagesdir: images
 :showtitle:
 
-Can an Academy action discount (e.g. gain a Wax Seal with a -2 discount) be applied to the cost of placing the seal on my player board?::
+[.question]
+Can an Academy action discount (e.g. gain a Wax Seal with a -2 discount) be applied to the cost of placing the seal on my player board?
 
-Yes. Sum the cost penalty of the scroll in the Academy (if you don't have the
+. Yes. Sum the cost penalty of the scroll in the Academy (if you don't have the
 objective bonus) with the board placement penalty, then apply the discount over the
 total.footnote:[https://boardgamegeek.com/thread/3106394/article/42512545#42512545]
 
-Can I have two tents at same location?::
+[.question]
+Can I have two tents at same location?
 
-No.footnote:[https://boardgamegeek.com/thread/3056016/article/41999370#41999370]
+. No. Each player may only have one tent per campsite location.footnote:[https://boardgamegeek.com/thread/3056016/article/41999370#41999370]
 
-Can I take a movement action (for an explorer or a ship) and move zero spaces?::
+[.question]
+Can I take a movement action (for an explorer or a ship) and move zero spaces?
 
-No. You always have to move a minimum of 1 space.footnote:[https://boardgamegeek.com/thread/3058801/article/42069877#42069877]
+. No. You always have to move a minimum of 1 space.footnote:[https://boardgamegeek.com/thread/3058801/article/42069877#42069877]
 
-What happens to seals removed from the top Academy row during cleanup?::
-They are removed from the game.footnote:[https://boardgamegeek.com/thread/3066250/article/42103598#42103598]
+[.question]
+What happens to seals removed from the top Academy row during cleanup?
 
-What if we run out of seals when refreshing the Academy during cleanup?::
-Seals are a limited resource. If you run out, you run out.
+. They are removed from the game.footnote:[https://boardgamegeek.com/thread/3066250/article/42103598#42103598]
 
-During the Rewards phase, what happens if an Envelope reward allows me to place additional stamps?::
+[.question]
+What if we run out of seals when refreshing the Academy during cleanup?
+
+. Seals are a limited resource. If you run out, you run out.footnote:[https://boardgamegeek.com/thread/3126416/article/42702999#42702999]
+
+[.question]
+During the Rewards phase, what happens if an Envelope reward allows me to place additional stamps?
+
 * If placed _above_ the currently evaluated envelope, stamps will apply during the next round.
 * If placed _in_ the currently evaluated envelope, stamps will apply during the next round. Do _not_ count them among the stamps to be removed for determining majority.footnote:[https://boardgamegeek.com/thread/2591355/article/41343085#41343085]
 * If placed _below_ the currently evaluated envelope, stamps will apply this round when that envelope is evaluated.footnote:[https://boardgamegeek.com/thread/2591355/article/36880355#36880355]
 
+image::objective-beagle-scoring.png[float=right,pdfwidth=20%]
+[.question]
+Does the Objective reward that limits the Beagle Lagging Penalty to -2 affect
+the _total_ penalty or _each_ penalty when a ship is multiple zones behind the Beagle?
+
+. The maximim value of _each_ Lagging Penalty between the Beagle and the ship is -2. If your ship is
+far behind the Beagle, this could result in a total penalty of -4 or -6, for example.footnote:[Rulebook page 21]
+
 ## Fireland
 
-Can an Academy action discount (e.g. gain a Wax Seal with a -2 discount) be applied to a Time Track Penalty (e.g. spend +1 coin for each Gain Scroll action)?::
+[.question]
 
-Yes. You can apply the discount to the entire cost of gaining the Wax Seal,
+Can an Academy action discount (e.g. gain a Wax Seal with a -2 discount) be
+applied to a Time Track Penalty (e.g. spend +1 coin for each Gain Scroll
+action)?
+
+. Yes. You can apply the discount to the entire cost of gaining the Wax Seal,
 including any Time Track Penalty.
 footnote:[https://boardgamegeek.com/thread/3070984/article/42152100#42152100]
 
-When passing an Adventure Token during movement, when do I resolve the Adventure card?::
+[.question]
 
-Draw the Adventure card, inspect the options, and then decide when to do it
+When passing an Adventure Token during movement, when do I resolve the
+Adventure card?
+
+. Draw the Adventure card, inspect the options, and then decide when to do it
 during your current turn. Consider the adventures as bonus actions you are
 getting, which means you can trigger that bonus anytime during your turn like
 you do when completing a character card or
 objective.footnote:[https://boardgamegeek.com/thread/3067378/article/42290868#42290868]
 
-What if there are no more adventure cards, but there are still tokens on the board?::
-Reshuffle the discards to form a new deck.footnote:[https://boardgamegeek.com/thread/3115165/article/42610738#42610738]
+[.question]
 
-## Discussion & Footnotes
+What if there are no more adventure cards, but there are still tokens on the
+board?
 
-Discussion: https://boardgamegeek.com/thread/3120091/faq-preliminary-and-unofficial
+Reshuffle the discards to form a new
+deck.footnote:[https://boardgamegeek.com/thread/3115165/article/42610738#42610738]
 

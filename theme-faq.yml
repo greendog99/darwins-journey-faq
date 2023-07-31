@@ -4,7 +4,7 @@ extends: default-sans-with-font-fallbacks
 var:
   base_font_color: 202020
   heading_font_color: 783818
-  font_size: 10
+  font_size: 11
 
 # Custom fonts
 font:
@@ -13,19 +13,19 @@ font:
     Garamond:
       normal: EBGaramond-Regular.ttf
       italic: EBGaramond-Italic.ttf
-      bold: EBGaramond-Bold.ttf
-      bold_italic: EBGaramond-BoldItalic.ttf
+      bold: EBGaramond-SemiBold.ttf
+      bold_italic: EBGaramond-SemiBoldItalic.ttf
 
 base:
   font-color: $var_base_font_color
   font-family: Garamond
   font-size: $var_font_size
   hyphens: true
-  line-height: 1.05
+  line-height: 1.0
   text-align: left
 
 page:
-  columns: 1
+  columns: 2
   column-gap: 15
   margin: [0.5in, 0.5in 0.67in, 0.5in]
 
@@ -46,48 +46,43 @@ heading:
   h1:
     font-style: italic
   h2:
-    font-size: $var_font_size * 1.6
+    font-size: $var_font_size * 1.4
+    font-style: italic
     border-color: $var_heading_font_color
-    border-style: double
-    border-width: [0, 0, 2, 0]
+    border-style: single
+    border-width: [0, 0, 1, 0]
   h3:
-    # font-family: Raleway Header
     font-size: $var_font_size * 1.3
     border-color: $var_heading_font_color
-    border-radius: 8
-    border-width: 1
-    margin-top: $var_font_size * 1
-    margin-bottom: $var_font_size * 0.5
 
 # Default image with if pdfwidth not specified
 image:
-  width: 33%
-
-# Used for topic headings - DEPRECATED
-sidebar:
-  background-color: 985838
-  border-radius: 9
-  border-width: ~
-  font-color: ffffff
-  font-size: 13
-  font-style: bold
-  padding: 1
+  width: 25%
 
 # Slightly larger margin before a different block (e.g. a sidebar)
-prose:
-  margin-bottom: 8
-  margin-inner: 6
+# prose:
+#   margin-bottom: 8
+#   margin-inner: 6
 
 list:
-  indent: 15
-  item-spacing: $var_font_size / 2
+  indent: 10
+  item-spacing: $var_font_size / 3
 
-# Reduce margin below sidebar (topic heading)
-block:
-  margin-bottom: 4
+olist-marker:
+  font-color: ffffff
+
+quote:
+  border-color: ffffff
+
+thematic-break:
+  border-color: 101010
 
 role:
   subheading:
     font-color: 090000
     font-size: 70%
     text-align: center
+  question:
+    # font-size: $var_font_size * 1.05
+    font-style: bold
+  answer:
