@@ -45,7 +45,7 @@ image::objective-beagle-scoring.png[float=right,pdfwidth=20%]
 Does the Objective reward that limits the Beagle Lagging Penalty to -2 affect
 the _total_ penalty or _each_ penalty when a ship is multiple zones behind the Beagle?
 
-. The maximim value of _each_ Lagging Penalty between the Beagle and the ship is -2. If your ship is
+. The maximum value of _each_ Lagging Penalty between the Beagle and the ship is -2. If your ship is
 far behind the Beagle, this could result in a total penalty of -4 or -6, for example.footnote:[Rulebook page 21]
 
 ## Fireland
@@ -76,6 +76,6 @@ objective.footnote:[https://boardgamegeek.com/thread/3067378/article/42290868#42
 What if there are no more adventure cards, but there are still tokens on the
 board?
 
-Reshuffle the discards to form a new
+. Reshuffle the discards to form a new
 deck.footnote:[https://boardgamegeek.com/thread/3115165/article/42610738#42610738]
 
