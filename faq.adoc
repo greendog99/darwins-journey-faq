@@ -1,6 +1,6 @@
-:doctitle: Darwin's Journey Unofficial FAQ
-:revnumber: 1.01
-:revdate: 2023-07-31
+:doctitle: Darwin's Journey Unofficial FAQ / Errata
+:revnumber: 1.02
+:revdate: 2024-07-15
 :reproducible:
 :experimental:
 :imagesdir: images
@@ -34,11 +34,27 @@ What if we run out of seals when refreshing the Academy during cleanup?
 . Seals are a limited resource. If you run out, you run out.footnote:[https://boardgamegeek.com/thread/3126416/article/42702999#42702999]
 
 [.question]
-During the Rewards phase, what happens if an Envelope reward allows me to place additional stamps?
+During the Rewards phase, what happens if a Correspondence Majority
+reward allows me to place additional stamps?
 
-* If placed _above_ the currently evaluated envelope, stamps will apply during the next round.
-* If placed _in_ the currently evaluated envelope, stamps will apply during the next round. Do _not_ count them among the stamps to be removed for determining majority.footnote:[https://boardgamegeek.com/thread/2591355/article/41343085#41343085]
-* If placed _below_ the currently evaluated envelope, stamps will apply this round when that envelope is evaluated.footnote:[https://boardgamegeek.com/thread/2591355/article/36880355#36880355]
+* If placed _above_ the currently evaluated envelope, stamps will apply during
+  the next round.
+* If placed _in_ the currently evaluated envelope, stamps will apply during the
+  next round. Do _not_ count them among the stamps to be removed for
+  determining
+  majority.footnote:[https://boardgamegeek.com/thread/2591355/article/41343085#41343085]
+* If placed _below_ the currently evaluated envelope, stamps will apply this
+  round when that envelope is
+  evaluated.footnote:[https://boardgamegeek.com/thread/2591355/article/36880355#36880355]
+
+[.question]
+During the Rewards phase, can I choose to skip a Correspondence Majority reward
+and leave my stamps in place?
+
+No. You can skip taking a reward, but your stamps will still be removed. This
+is a rulebook errata and will be updated in a future rulebook to read: _"Then,
+**all players who won a majority** (regardless if they took the reward or not)
+must remove half their stamps..."_ footnote:[ThunderGryph Discord response by Gon on 2024-07-15 16:02 GMT]
 
 image::objective-beagle-scoring.png[float=right,pdfwidth=20%]
 [.question]
